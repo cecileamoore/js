@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript</title>
+		<script>
+			alert('hello :)');
+		</script>
+		<p id="demo"></p>
+		<link rel="stylesheet" href="css/style.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</head>
+	<body>
+		<script>
+		document.getElementById("demo").innerHTML =
+		"The title of this document is: " + document.title;
+		</script>
+		
+		<p>Display the value of Boolean(10 > 9):</p>
+		<button onclick="myFunction()">Try it</button>
+		<p id="demo"></p>
+
+		<script>
+		function myFunction() {
+   		 document.getElementById("demo").innerHTML = Boolean(10 > 9);
+			}
+		</script>
+
+	</body>
+</html>
